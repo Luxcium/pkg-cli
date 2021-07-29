@@ -1,0 +1,13 @@
+typings/.tsbuildinfo.lib
+.history
+luxcium-pkg-cli-*.tgz
+node_modules
+README.md
+src
+tsconfig.json
+.editorconfig
+.git
+.gitignore
+.npmignore
+.prettierrc
+.vscode
