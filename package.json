@@ -1,6 +1,6 @@
 {
   "name": "@luxcium/pkg-cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": false,
   "bin": {
     "pkg": "bin/pkg.js"
@@ -26,18 +26,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/eliasgs/pkg-cli"
+    "url": "https://github.com/Luxcium/pkg-cli.git"
   },
   "keywords": [
     "packge.json",
     "package",
     "cli"
   ],
-  "author": "Elias G. Schneevoigt <eliasgs@gmail.com>",
+  "author": "Benjamin Vincent Kasapoglu (Luxcium) <luxcium@neb401.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/eliasgs/pkg-cli/issues"
+    "url": "https://github.com/Luxcium/pkg-cli/issues"
   },
-  "homepage": "https://github.com/eliasgs/pkg-cli"
+  "homepage": "https://github.com/Luxcium/pkg-cli/blob/master/README.md"
 
 }

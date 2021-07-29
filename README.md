@@ -1,6 +1,6 @@
 # pkg-cli
 
-Command line script for easy access to a Node module's package.json data. 
+Command line script for easy access to a Node module's package.json data.
 
 ## Install
 
@@ -25,3 +25,5 @@ hub create -d "$(pkg description)"
 ```bash
 git commit -am v$(pkg version)
 ```
+
+Based on the work of Elias G. Schneevoigt (c) 2014
