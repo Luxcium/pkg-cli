@@ -1,6 +1,7 @@
 {
   "name": "@luxcium/pkg-cli",
   "version": "1.0.0",
+  "private": false,
   "bin": {
     "pkg": "bin/pkg.js"
   },
@@ -12,7 +13,10 @@
     "build": "tsc",
     "postbuild": "prettier -w 'index.js' && prettier -w 'bin/pkg.js'",
     "postinstall": "npm run build",
-    "test": "test `node bin/pkg.js name` = 'pkg-cli' && echo '1 test passed'"
+    "test": "test `node bin/pkg.js name` = 'pkg-cli' && echo '1 test passed'",
+    "prepublish:dry": "rimraf 'luxcium-pkg-cli-*1.0.0*.tgz'; npm run build; npm pack",
+    "prepublish": "rimraf 'luxcium-pkg-cli-*1.0.0*.tgz'; npm run build; npm pack",
+    "publish:dry": "npm publish --tag latest --access public --dry-run"
   },
   "devDependencies": {
     "@types/node": "^12.20.17",
